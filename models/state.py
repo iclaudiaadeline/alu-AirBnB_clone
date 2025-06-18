@@ -1,8 +1,15 @@
 #!/usr/bin/python3
-"""documentation"""
+
+"""This file defines the State Model
+It inherits from the BaseModel
+"""
+
+
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """class for state"""
+    """The State Model"""
+
+    # Attributes
     name = ""

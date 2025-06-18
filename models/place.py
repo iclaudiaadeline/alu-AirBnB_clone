@@ -1,13 +1,20 @@
 #!/usr/bin/python3
-"""doc"""
+
+"""This file defines the Place Model
+It inherits from the BaseModel
+"""
+
 from models.base_model import BaseModel
+from typing import List
 
 
 class Place(BaseModel):
-    """place class"""
-    name = ""
+    """The Place Model"""
+
+    # Attributes
     city_id = ""
     user_id = ""
+    name = ""
     description = ""
     number_rooms = 0
     number_bathrooms = 0
